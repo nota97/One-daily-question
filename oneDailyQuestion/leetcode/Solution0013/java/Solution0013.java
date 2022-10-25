@@ -1,4 +1,4 @@
-package oneDailyQuestion;
+package oneDailyQuestion.Solution0013.java;
 
 
 import java.util.HashMap;
