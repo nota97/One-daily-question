@@ -1,8 +1,5 @@
 package oneDailyQuestion.Solution0024.java;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 /**
  * 24. 两两交换链表中的节点
