@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 24. 两两交换链表中的节点
+ * https://leetcode.cn/problems/swap-nodes-in-pairs/
+ */
 public class Solution {
     public static void main(String[] args) {
         System.out.println(swapPairs(new ListNode(1,new ListNode(2,new ListNode(3,new ListNode(4))))));
