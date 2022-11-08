@@ -1,7 +1,13 @@
 package oneDailyQuestion.Solution0092.java;
 
-import java.util.List;
 
+/**
+ * 92. 反转链表 II
+ * https://leetcode.cn/problems/reverse-linked-list-ii/
+ * curr：指向待反转区域的第一个节点 left；
+ * next：永远指向 curr 的下一个节点，循环过程中，curr 变化以后 next 会变化；
+ * pre：永远指向待反转区域的第一个节点 left 的前一个节点，在循环过程中不变。
+ */
 public class Solution {
     public static void main(String[] args) {
         reverseBetween(new ListNode(1, new ListNode(2, new ListNode(3,
