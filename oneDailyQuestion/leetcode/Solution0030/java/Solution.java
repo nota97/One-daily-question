@@ -50,7 +50,7 @@ public class Solution {
         for (int i = 0; i <= s.length() - len + 1; i++) {
             Map<String, Integer> hasMap = new HashMap<>();
             int a = i;
-            while (a < len + i && a <= s.length() - n) {
+            while (a < len + i) {
                 String word = s.substring(a, a + n);
                 if (wordMap.containsKey(word)) {
                     int value = hasMap.getOrDefault(word, 0);
