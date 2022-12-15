@@ -1,5 +1,10 @@
 package oneDailyQuestion.Solution0086.java;
 
+
+/**
+ * 86. 分隔链表
+ * https://leetcode.cn/problems/partition-list/
+ */
 public class Solution {
     public static void main(String[] args) {
         System.out.println(partition(new ListNode(1, new ListNode(4, new ListNode(3, new ListNode(2,
